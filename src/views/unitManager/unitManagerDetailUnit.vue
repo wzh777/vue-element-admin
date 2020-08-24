@@ -139,7 +139,7 @@ import { getCrtByAgenCode } from '@/api/base/unitManager/purchLicense'
 export default {
   data () {
     return {
-      searchByAgenCode: this.$store.state.agenCode,
+      searchByAgenCode: this.$store.state.user.agenCode,
       // searchByAgenCode: '35018201',
       loading: true,
       dialogVisible: false,

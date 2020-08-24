@@ -196,7 +196,7 @@ export default {
     return {
     //   loading: true,
       queryParams: { // 查询参数
-        keyword: this.$store.state.agenCode,
+        keyword: this.$store.state.user.agenCode,
         page: 1,
         limit: 10,
         total: 0

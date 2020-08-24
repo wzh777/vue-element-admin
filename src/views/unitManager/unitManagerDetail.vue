@@ -152,7 +152,6 @@ export default {
   data () {
     return {
       searchById: { id: this.id },
-      // searchByAgenCode: this.$store.state.agenCode,
       loading: true,
       dialogVisible: false,
       dialogVisibleTow: false,
