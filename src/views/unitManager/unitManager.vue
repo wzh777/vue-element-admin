@@ -164,14 +164,6 @@ import {
   getDapartListAll,
   getAgenCount
 } from '@/api/base/unitManager/unitManager'
-// import {
-//   getAgenBillType,
-//   getBillAllType,
-//   updateAgenBillBatch,
-//   getAgenItemList,
-//   getAllItemList,
-//   updateAgenItemBatch
-// } from '@/api/unitManager'
 
 const defaultUser = {
   note: '',

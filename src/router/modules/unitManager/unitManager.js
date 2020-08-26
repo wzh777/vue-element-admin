@@ -14,6 +14,12 @@ const unitManager = {
       name: 'unitManager',
       meta: { title: '单位管理', icon: 'icon' }
     },
+    // {
+    //   path: 'unitPayerCopy',
+    //   component: () => import('@/views/unitManager/unitPayerCopy'),
+    //   name: 'unitPayerCopy',
+    //   meta: { title: '缴款人复制', icon: 'icon' }
+    // },
     {
       path: 'unitManagerDetail/:id',
       component: () => import('@/views/unitManager/unitManagerDetail'),
@@ -21,13 +27,13 @@ const unitManager = {
       props: (route) => ({
         id: route.params.id
       }),
-      meta: { title: '单位管理详情(财政端)', icon: 'table' }
+      meta: { title: '单位管理详情', icon: 'table' }
     },
     {
       path: 'unitManagerDetailUnit',
       component: () => import('@/views/unitManager/unitManagerDetailUnit'),
       name: 'unitManagerDetailUnit',
-      meta: { title: '单位管理详情(单位端)', icon: 'table' }
+      meta: { title: '单位管理详情', icon: 'table' }
     },
     {
       path: 'unitCheck',
