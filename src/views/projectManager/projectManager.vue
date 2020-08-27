@@ -103,7 +103,7 @@
               <el-button type="danger" size="mini" @click="handleDelete(scope.row)">删除</el-button>
             </template>
           </el-table-column>
-          <el-table-column align="center" label="标准管理" width="210" fixed="right">
+          <el-table-column align="center" label="标准管理" width="160" fixed="right">
             <template slot-scope="scope">
               <el-button type="primary" size="mini" @click="handleAddStand(scope.row)">新增</el-button>
               <el-button type="primary" size="mini" @click="handleEditStand(scope.row)">修改</el-button>
